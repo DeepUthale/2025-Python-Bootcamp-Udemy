@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-OPENAI_API_KEY = "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"
+OPENAI_API_KEY = "API_KEY"
 
 messages = []
 
@@ -36,3 +36,4 @@ if __name__ == "__main__":
         user_question = input()
         print(f"User: {user_question}")
         completion(user_question)
+
